@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Chrome homepage</title>
-  </head>
-  <body>
-    <!-- greeting -->
-    <form class="hidden" id="login-form">
-      <input type="text" placeholder="What is your name?" />
-      <input type="submit" value="Log in" />
-    </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <!-- clock -->
-    <h2 id="clock">00:00:00</h2>
-    <!-- to do list -->
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-    <!-- quotes -->
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Chrome homepage</title>
+</head>
+
+<body>
+  <section id="background">
     <!-- weather api -->
     <div id="weather">
       <span></span>
       <span></span>
     </div>
-    <script src="./js/greetings.js"></script>
-    <script src="./js/clock.js"></script>
-    <script src="./js/quotes.js"></script>
-    <script src="./js/background.js"></script>
-    <script src="./js/todo.js"></script>
-    <script src="./js/weather.js"></script>
-  </body>
+    <!-- clock -->
+    <h2 id="clock">00:00:00</h2>
+    <!-- greeting -->
+    <div class="greeting">
+      <form class="hidden" id="login-form">
+        <input type="text" placeholder="What is your name?" />
+        <input type="submit" value="Log in" />
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+    <!-- to do list -->
+    <div class="todolist">
+      <h1>To Do List 📄</h1>
+      <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required />
+        <input type="submit" value="☑️" />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <!-- quotes -->
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+
+  </section>
+  <script src="./js/greetings.js"></script>
+  <script src="./js/clock.js"></script>
+  <script src="./js/quotes.js"></script>
+  <script src="./js/background.js"></script>
+  <script src="./js/todo.js"></script>
+  <script src="./js/weather.js"></script>
+</body>
+
 </html>
