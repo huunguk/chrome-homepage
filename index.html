@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 
 <head>
   <meta charset="UTF-8" />
@@ -10,38 +10,39 @@
 </head>
 
 <body>
-  <section id="background">
-    <!-- weather api -->
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
-    <!-- clock -->
-    <h2 id="clock">00:00:00</h2>
-    <!-- greeting -->
-    <div class="greeting">
-      <form class="hidden" id="login-form">
-        <input type="text" placeholder="What is your name?" />
-        <input type="submit" value="Log in" />
-      </form>
-      <h1 id="greeting" class="hidden"></h1>
-    </div>
-    <!-- to do list -->
-    <div class="todolist">
-      <h1>To Do List 📄</h1>
-      <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" required />
-        <input type="submit" value="☑️" />
-      </form>
-      <ul id="todo-list"></ul>
-    </div>
-    <!-- quotes -->
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
-
-  </section>
+  <div id="wrap">
+    <section id="background">
+      <!-- weather api -->
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+      <!-- clock -->
+      <h2 id="clock">00:00:00</h2>
+      <!-- greeting -->
+      <div class="greeting">
+        <form class="hidden" id="login-form">
+          <input type="text" placeholder="What is your name?" />
+          <input type="submit" value="Log in" />
+        </form>
+        <h1 id="greeting" class="hidden"></h1>
+      </div>
+      <!-- to do list -->
+      <div class="todolist">
+        <h1>To Do List 📄</h1>
+        <form id="todo-form">
+          <input type="text" placeholder="Write a To Do and Press Enter" required />
+          <input type="submit" value="☑️" />
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+      <!-- quotes -->
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+  </div>
   <script src="./js/greetings.js"></script>
   <script src="./js/clock.js"></script>
   <script src="./js/quotes.js"></script>
