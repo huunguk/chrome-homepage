@@ -3,7 +3,7 @@
 <br>
 
 ## 🔥 Link (Chrome-homepage)
-![캡처](https://user-images.githubusercontent.com/100752008/180679771-110d4a45-219b-4fbb-8401-c096ab52ae68.PNG)
+![캡처](https://user-images.githubusercontent.com/100752008/181145621-8cd5cc67-5e6f-4b4e-a930-bbbea3163ffb.PNG)
 ### [Go To "Chrome-homepage"](https://huunguk.github.io/chrome-homepage/)
 ### [GO To "Dev-vlog(development retrospective)"](https://velog.io/@huunguk/Nomad-Coders-%EB%B0%94%EB%8B%90%EB%9D%BCJS-%ED%99%9C%EC%9A%A9%ED%95%9C-Chrome-page-%EB%A7%8C%EB%93%A4%EA%B8%B0-%ED%9A%8C%EA%B3%A0)
 
